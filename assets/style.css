@@ -1,0 +1,43 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0px 40px;
+  position: fixed;
+  top: 0;
+}
+
+.navbar-left a {
+  height: 40%;
+  font-family: "Gobold";
+  color: black;
+}
+
+.navbar-right {
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.navbar-right a {
+  font-family: "SoDo Sans SemiBold";
+  color: black;
+  text-decoration: underline;
+  font-weight: ;
+}
+.linea {
+  border-top: 1px solid black;
+  height: 2px;
+  padding: 0;
+  margin: 20px auto 0 auto;
+}
